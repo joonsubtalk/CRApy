@@ -76,7 +76,7 @@ os.rename(fileToMod, pathSrc + '/index.scss')
 
 # Modify package.json
 print('npm installing... ')
-subprocess.check_call('npm i --save node-sass-chokidar npm-run-all --prefix app', shell=True)
+subprocess.check_call('yarn add node-sass-chokidar npm-run-all --prefix '+fileName, shell=True)
 
 print('npm install done!')
 fileToMod = path + '/package.json'
