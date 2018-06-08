@@ -1,4 +1,4 @@
-# CRAstrap
+# CRApy
 cuz we got only one life
 
 # USAGE
